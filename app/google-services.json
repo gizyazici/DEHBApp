@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1082895942640",
+    "project_id": "dehb-app",
+    "storage_bucket": "dehb-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082895942640:android:ba95b5e3d0a2b483299335",
+        "android_client_info": {
+          "package_name": "com.nexis.dehbapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082895942640-ijlbuf2ptct03aro8dfoait22ajqfsc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsyJNuu0_Z62rijWoG0nij4LqHJ8HegMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082895942640-ijlbuf2ptct03aro8dfoait22ajqfsc2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

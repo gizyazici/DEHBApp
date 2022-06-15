@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Sign">
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="230dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="230dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="27dp"
+        android:ems="10"
+        android:hint="Şifreniz"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/btnkayit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+
+    <Button
+        android:id="@+id/btnkayit"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="54dp"
+        android:onClick="@string/kayitOl"
+        android:text="Kayıt Ol"
+        app:layout_constraintBottom_toTopOf="@+id/bt9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+
+    <Button
+        android:id="@+id/bt9"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="146dp"
+        android:onClick="@string/bt8"
+        android:text="Giriş"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnkayit" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="289dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="36dp"
+        android:text="Lütfen bilgileri eksiksiz giriniz."
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
